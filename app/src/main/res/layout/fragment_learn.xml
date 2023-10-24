@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.LearnFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/parrent_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_bg"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/learn_tl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabTextColor="@color/text_clr_light"
+                    app:tabSelectedTextColor="@color/text_clr"
+                    app:tabIndicatorColor="@color/text_clr"
+                    app:tabIndicatorHeight="2dp"
+                    app:tabMode="scrollable"
+                    android:background="@color/app_bg"
+                    app:tabBackground="@color/app_bg"
+                    app:tabSelectedTextAppearance="@style/TabText"
+                    app:textAllCaps="false"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/text_clr_light"/>
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/vp_learn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</layout>

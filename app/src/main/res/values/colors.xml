@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#FFFFFF</color>
+    <color name="app_bg_tr">#20FFFFFF</color>
+
+    <color name="text_clr">#212121</color>
+    <color name="text_clr_light">#90212121</color>
+    <color name="splash_text_clr_light">#212121</color>
+    <color name="text_clr_v_light">#40212121</color>
+
+    <color name="white_text">#FFFFFF</color>
+    <color name="title_clr">#263238</color>
+    <color name="icon_clr">#263238</color>
+
+    <color name="box_bg_1">#8037474F</color>
+    <color name="box_bg_2">#80FFFFFF</color>
+
+    <color name="transparent">#30000000</color>
+
+    <color name="app_selection_clr">#C096C5</color>
+
+    <color name="black">#000000</color>
+
+</resources>

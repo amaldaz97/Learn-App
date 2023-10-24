@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Learn App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">नमस्कार रिक्त अंश</string>
+    <string name="mobile">गतिमान</string>
+    <string name="alerts">अलर्ट</string>
+    <string name="advisory">सलाहकार</string>
+    <string name="best_practises">सर्वोत्तम प्रथाएं</string>
+    <string name="news">समाचार</string>
+    <string name="all">सभी</string>
+    <string name="settings">समायोजन</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="hindi">हिंदी</string>
+    <string name="home">घर</string>
+    <string name="checker">परीक्षक</string>
+    <string name="learn">सीखना</string>
+    <string name="help">मदद</string>
+    <string name="choose_language">अपनी पसंदीदा भाषा चुनेंं</string>
+</resources>

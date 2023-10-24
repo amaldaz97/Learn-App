@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/app_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_vxxxl"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/gap_md"
+            android:textColor="@color/text_clr"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:onClick="goToSettings"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/gap_lg">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:tint="@color/text_clr_light"
+                android:src="@drawable/ic_settings"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_vlg"
+                android:text="@string/settings"
+                android:layout_marginStart="@dimen/gap_sm"
+                android:textColor="@color/text_clr_light"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

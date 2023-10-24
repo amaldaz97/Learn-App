@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LearnApp" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_selection_clr</item>
+        <item name="colorPrimaryVariant">@color/text_clr_light</item>
+        <item name="colorOnPrimary">@color/text_clr_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/text_clr_light</item>
+        <item name="colorSecondaryVariant">@color/text_clr_light</item>
+        <item name="colorOnSecondary">@color/text_clr_light</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/text_clr</item>
+
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/app_selection_clr</item>
+
+
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialog</item>
+
+    </style>
+
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>
